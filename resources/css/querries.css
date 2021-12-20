@@ -1,0 +1,207 @@
+/* ---------------------------------------------------------- */
+/* -------------------- MAX WIDTH: 1024PX ------------------- */
+/* ---------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+    button {
+        font-size: 1.4rem;
+        padding: 5px;
+        margin: 2px 2px 10px 2px;
+        box-shadow: 4px 4px 4px black;
+    }
+/* ------ Classes ------ */
+    .sub-container {
+        grid-template-columns: repeat(3, 128px);
+        grid-template-rows: repeat(3, 128px);
+    }
+    .boxes {
+        height: 128px; width: 128px;
+        border: 7px solid #102b2f;
+    }
+    .score-boxes {
+        font-size: 1.2rem;
+        margin: 0px 9px;
+        padding: 0px 13px;
+    }
+    .b-img {
+        height: 90%;
+    }
+/* ------ IDs ------ */
+    #gameTitle {
+        font-size: 3.5rem;
+    }
+    #gameDeveloper { 
+        left: 16px;
+        top: -25px;
+    }
+    #gameDeveloper,
+    #githubLink {
+        font-size: 1.2rem;
+    }
+    #result-box {
+        top: 52.5%;
+        font-size: 2.2rem;
+    }
+}
+
+
+/* ---------------------------------------------------------- */
+/* -------------------- MAX WIDTH: 475PX -------------------- */
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 475px) {
+    button {
+        font-size: 1.3rem;
+        padding: 5px;
+        margin: 2px 2px 10px 2px;
+        box-shadow: 4px 4px 4px black;
+    }
+/* ------ Classes ------ */
+    .sub-container {
+        grid-template-columns: repeat(3, 123px);
+        grid-template-rows: repeat(3, 123px);
+    }
+    .boxes {
+        height: 123px; width: 123px;
+    }
+    .score-boxes {
+        font-size: 1.1rem;
+        margin: 0px 8px;
+        padding: 0px 12px;
+    }
+/* ------ IDs ------ */
+    #gameTitle {
+        font-size: 3.5rem;
+        text-shadow: 6px 6px 20px #102b2f;
+    }
+    
+    #result-box {
+        top: 52.5%;
+        font-size: 2.2rem;
+    }
+}
+
+/* ---------------------------------------------------------- */
+/* -------------------- MAX WIDTH: 386PX -------------------- */
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 386px) {
+    
+    button {
+        font-size: 1.3rem;
+        padding: 5px;
+        margin: 2px 2px 10px 2px;
+        box-shadow: 4px 4px 4px black;
+    }
+/* ------ Classes ------ */
+    .sub-container {
+        grid-template-columns: repeat(3, 123px);
+        grid-template-rows: repeat(3, 123px);
+    }
+    .boxes {
+        height: 123px; width: 123px;
+        border: 7px solid #102b2f;
+    }
+    .score-boxes {
+        font-size: 1.1rem;
+        margin: 0px 8px;
+        padding: 0px 12px;
+    }
+/* ------ IDs ------ */
+    #gameTitle {
+        font-size: 3.5rem;
+        text-shadow: 6px 6px 20px #102b2f;
+    }
+    #result-box {
+        top: 52.5%;
+        font-size: 2.2rem;
+    }
+}
+
+/* ---------------------------------------------------------- */
+/* -------------------- MAX WIDTH: 378PX -------------------- */
+/* ---------------------------------------------------------- */
+@media screen and (max-width: 378px) {
+    
+    button {
+        font-size: 0.8rem;
+        padding: 5px;
+        margin: 1.5px 1.5px 8px 1.5px;
+        box-shadow: 4px 4px 4px black;
+    }
+    /* ------ Classes ------ */
+    .sub-container {
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+    }
+    .boxes {
+        height: 100px; width: 100px;
+        border: 6px solid #102b2f;
+    }
+    .score-boxes {
+        font-size: 0.8rem;
+        margin: 0px 3px;
+        padding: 0px 6px;
+    }
+    /* ------ IDs ------ */
+    #gameTitle {
+        font-size: 3rem;
+        text-shadow: 6px 6px 20px #102b2f;
+    }
+    #result-box {
+        top: 52%;
+        font-size: 1.8rem;
+    }
+    #gameDeveloper {
+        left: 18px;
+        top: -19px;
+    }
+    #gameDeveloper,
+    #githubLink {
+        font-size: 1rem;
+    }
+}
+
+
+/* ---------------------------------------------------------- */
+/* -------------------- MAX WIDTH: 322PX -------------------- */
+/* ---------------------------------------------------------- */
+
+@media screen and (max-width: 330px) {
+    
+    button {
+        font-size: 0.8rem;
+        padding: 5px;
+        margin: 1.5px 1.5px 8px 1.5px;
+        box-shadow: 4px 4px 4px black;
+    }
+    /* ------ Classes ------ */
+    .sub-container {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+    }
+    .boxes {
+        height: 80px; width: 80px;
+        border: 5px solid #102b2f;
+    }
+    .score-boxes {
+        font-size: 0.8rem;
+        margin: 0px 3px;
+        padding: 0px 6px;
+    }
+    /* ------ IDs ------ */
+    #gameTitle {
+        font-size: 2.8rem;
+        text-shadow: 6px 6px 20px #102b2f;
+    }
+    #result-box {
+        top: 51%;
+        font-size: 1.5rem;
+    }
+    #gameDeveloper {
+        left: 14px;
+        top: -19px;
+    }
+    #gameDeveloper,
+    #githubLink {
+        font-size: 0.95rem;
+    }
+}

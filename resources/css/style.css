@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Outfit:wght@100&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 16px;
+}
+html,
+button {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+}
+
+body {
+    background-color: #5fc3a0;
+}
+
+button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #102b2f;
+    border: 2px solid white;
+    border-radius: 45px;
+    padding: 5px;
+    margin: 5px 5px 15px 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px black;
+
+    transition-timing-function: ease-in;
+    transition-duration: 100ms;
+}
+
+button:active {
+    transform: translateY(8px);
+}
+
+/* --------------------------------------- */
+/* --------------- Classes --------------- */
+/* --------------------------------------- */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.sub-container {
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    grid-template-rows: repeat(3, 140px);
+}
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 140px; width: 140px;
+    border: 8px solid #102b2f;
+    cursor: pointer;
+}
+.sub-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 90%; width: 90%;
+}
+.b-img {
+    height: 95%;
+}
+.winner-class {
+    height: 80%; width: 80%;
+    border-radius: 45px;
+    background-color: #102b2f;
+}
+.score-boxes {
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    box-shadow: 4px 4px 4px black;
+
+    font-size: 1.3rem;
+    margin: 0px 10px;
+    padding: 0px 15px;
+}
+
+
+/* ----------------------------------- */
+/* --------------- IDs --------------- */
+/* ----------------------------------- */
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Boxes: */
+#b11 {
+    border-top: 0px;
+    border-left: 0px;
+}
+#b12 {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+#b13 {
+    border-top: 0px;
+    border-right: 0px;
+}
+#b21 {
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#b22 {
+    border: 0px;
+}
+#b23 {
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+#b31 {
+    border-left: 0px;
+    border-bottom: 0px;
+}
+#b32 {
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+#b33 {
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+/* Sub-boxes: */
+#sub-boxes{
+    height: 135px; width: 135px;
+}
+
+/* Result container */
+#result-box {
+    position: absolute;
+    display: block;
+    top: 53%;
+    z-index: 2;
+
+    color: white;
+    font-size: 2.7rem;
+    text-shadow: 4px 4px 4px grey;
+}
+
+/* Score and button containers */
+#score-container {
+    margin-top: 16px;
+}
+#btn-container {
+    margin-top: 8px;
+}
+
+
+
+/* Winner Counts */
+#player1WinCBox {
+    background-color: #e6332d;
+}
+#player2WinCBox {
+    background-color: rgb(224, 224, 224);
+}
+
+/* Container Intro */
+#gameTitle {
+    font-size: 4.7rem;
+    color: white;
+    text-shadow: 6px 6px 20px #102b2f;
+
+    z-index: 1;
+}
+/* My Github and Name */
+#gameDeveloper {
+    display: block;
+    position: relative;
+    text-align: center;
+
+    left: 31px;
+    top: -31px;
+    z-index: 2;
+}
+#gameDeveloper,
+#githubLink {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 20px black;
+    text-decoration: none;
+}
+
+#githubLink:hover {
+    text-decoration: underline;
+}
+
+
+/*
+(*) DEVELOPER DETAILS:
+Developed by: Hamza Ahmad
+Facebook: https://www.facebook.com/profile.php?id=100071784130712
+LinkedIn: https://www.linkedin.com/in/hamza-ahmad-1506b31bb
+Github: https://github.com/hamzalicious
+*/
