@@ -137,9 +137,9 @@ function checkResult() {
             document.getElementById("sub-b23").classList.add("winner-class");
             document.getElementById("sub-b33").classList.add("winner-class");
         } else if(markPlayer2[2] && markPlayer2[5] && markPlayer2[8]){
-            player1Win = true; gamePlaying = false;
+            player2Win = true; gamePlaying = false;
             document.getElementById("sub-b13").classList.add("winner-class");
-            document.getElementById("sub-b23").classList.add("player1-win");
+            document.getElementById("sub-b23").classList.add("winner-class");
             document.getElementById("sub-b33").classList.add("winner-class");
         }
         // Cross: 0 4 8 (B11 B22 B33)
@@ -161,7 +161,7 @@ function checkResult() {
             document.getElementById("sub-b22").classList.add("winner-class");
             document.getElementById("sub-b31").classList.add("winner-class");
         } else if(markPlayer2[2] && markPlayer2[4] && markPlayer2[6]){
-            player1Win = true; gamePlaying = false;
+            player2Win = true; gamePlaying = false;
             document.getElementById("sub-b13").classList.add("winner-class");
             document.getElementById("sub-b22").classList.add("winner-class");
             document.getElementById("sub-b31").classList.add("winner-class");
