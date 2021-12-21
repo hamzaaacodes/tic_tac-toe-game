@@ -221,12 +221,12 @@ checkResult();
 document.getElementById("b11").addEventListener("click", function(){
     if(!marked[0] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b11-img").src = "resources/img/circle.png";
+            document.getElementById("b11-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[0] = true;
         } else if (player2Turn) {
-            document.getElementById("b11-img").src = "resources/img/cross.png";
+            document.getElementById("b11-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[0] = true;
@@ -240,12 +240,12 @@ document.getElementById("b11").addEventListener("click", function(){
 document.getElementById("b12").addEventListener("click", function(){
     if(!marked[1] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b12-img").src = "resources/img/circle.png";
+            document.getElementById("b12-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[1] = true;
         } else if (player2Turn) {
-            document.getElementById("b12-img").src = "resources/img/cross.png";
+            document.getElementById("b12-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[1] = true;
@@ -259,12 +259,12 @@ document.getElementById("b12").addEventListener("click", function(){
 document.getElementById("b13").addEventListener("click", function(){
     if(!marked[2] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b13-img").src = "resources/img/circle.png";
+            document.getElementById("b13-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[2] = true;
         } else if (player2Turn) {
-            document.getElementById("b13-img").src = "resources/img/cross.png";
+            document.getElementById("b13-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value: 
             markPlayer2[2] = true;
@@ -278,12 +278,12 @@ document.getElementById("b13").addEventListener("click", function(){
 document.getElementById("b21").addEventListener("click", function(){
     if(!marked[3] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b21-img").src = "resources/img/circle.png";
+            document.getElementById("b21-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[3] = true;
         } else if (player2Turn) {
-            document.getElementById("b21-img").src = "resources/img/cross.png";
+            document.getElementById("b21-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[3] = true;
@@ -297,12 +297,12 @@ document.getElementById("b21").addEventListener("click", function(){
 document.getElementById("b22").addEventListener("click", function(){
     if(!marked[4] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b22-img").src = "resources/img/circle.png";
+            document.getElementById("b22-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[4] = true;
         } else if (player2Turn) {
-            document.getElementById("b22-img").src = "resources/img/cross.png";
+            document.getElementById("b22-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[4] = true;
@@ -316,12 +316,12 @@ document.getElementById("b22").addEventListener("click", function(){
 document.getElementById("b23").addEventListener("click", function(){
     if(!marked[5] && gamePlaying) {
         if(player1Turn){
-            document.getElementById("b23-img").src = "resources/img/circle.png";
+            document.getElementById("b23-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[5] = true;
         } else if (player2Turn) {
-            document.getElementById("b23-img").src = "resources/img/cross.png";
+            document.getElementById("b23-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[5] = true;
@@ -335,12 +335,12 @@ document.getElementById("b23").addEventListener("click", function(){
 document.getElementById("b31").addEventListener("click", function(){
     if(!marked[6] && gamePlaying){
         if(player1Turn){
-            document.getElementById("b31-img").src = "resources/img/circle.png";
+            document.getElementById("b31-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[6] = true;
         } else if (player2Turn) {
-            document.getElementById("b31-img").src = "resources/img/cross.png";
+            document.getElementById("b31-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[6] = true;
@@ -354,12 +354,12 @@ document.getElementById("b31").addEventListener("click", function(){
 document.getElementById("b32").addEventListener("click", function(){
     if(!marked[7] && gamePlaying){
         if(player1Turn){
-            document.getElementById("b32-img").src = "resources/img/circle.png";
+            document.getElementById("b32-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[7] = true;
         } else if (player2Turn) {
-            document.getElementById("b32-img").src = "resources/img/cross.png";
+            document.getElementById("b32-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[7] = true;
@@ -373,12 +373,12 @@ document.getElementById("b32").addEventListener("click", function(){
 document.getElementById("b33").addEventListener("click", function(){
     if(!marked[8] && gamePlaying){
         if(player1Turn){
-            document.getElementById("b33-img").src = "resources/img/circle.png";
+            document.getElementById("b33-img").src = "../resources/img/circle.png";
             player1Turn = false; player2Turn = true;
             // Mark Value:
             markPlayer1[8] = true;
         } else if (player2Turn) {
-            document.getElementById("b33-img").src = "resources/img/cross.png";
+            document.getElementById("b33-img").src = "../resources/img/cross.png";
             player1Turn = true; player2Turn = false;
             // Mark Value:
             markPlayer2[8] = true;
